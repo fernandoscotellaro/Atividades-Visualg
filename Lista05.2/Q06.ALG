@@ -5,14 +5,16 @@ Var
 // Seção de Declarações das variáveis 
 contador: inteiro
 mul: inteiro
+conta: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
 contador <- 10
 mul <- 3
+conta <- contador * mul
 escreval("A mul. de",contador, " por 3 até que seja igual ou menor do que 250")
-            enquanto ( contador <= 250 ) faca
-            escreval( contador, " x", mul, " é igual a:", contador)
-            contador <- contador * mul
+            enquanto ( conta <= 250 ) faca
+            escreval( "N", " x", mul, " é igual a:", conta)
+            conta <- conta * mul
 fimenquanto
 Fimalgoritmo
